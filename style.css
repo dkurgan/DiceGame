@@ -1,0 +1,49 @@
+body{
+  background-color: #f9f9f9;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 grey;
+  background-color: red;
+  opacity: 0.5;
+}
+.general{
+  border-radius: 55px;
+}
+#btn {
+    background-color: white;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  color: black;
+  border: 2px solid #008CBA;
+}
+#btn:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.dice{
+  visibility: hidden;
+  border-radius: 15px;
+}
+.dice#player1{
+  display: inline-block;
+  visibility: hidden;
+  font-size: 20px;
+  margin-right: 105px;
+}
+.dice#player2{
+  margin-left: 105px;
+    display: inline-block;
+  visibility: hidden;
+  font-size: 20px;
+}
+.dice#leftDice {
+  margin-right: 35px;
+  width: 200px;
+  height: 200px;
+}
+.dice#rightDice {
+  margin-left: 35px;
+  width: 200px;
+  height: 200px;
+}

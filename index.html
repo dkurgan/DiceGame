@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cubick Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center>
+      <h1 id="head" class='dis'>Dice game for 2 players</h1>
+      <h2 id="hide" class="hide dis">Press on image</h2>
+      <div id='player1' class='dice'>Player 1</div>
+      <div id='player2' class='dice'>Player 2</div>
+    <div class="container">
+    <img class='general dis' id='general' src="img/all.png"i alt="all_dice"> <br />
+    <img src="img/1.png" id='leftDice' class="dice" alt="leftDice" style="visibility: hidden">
+    <img src="img/1.png" id='rightDice' class="dice" alt="rightDice" style="visibility: hidden"> <br />
+    <button type="button" id="btn" name="button" style="display: none">Try!</button>
+    </div>
+    </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="action.js" charset="utf-8"></script>
+  </body>
+</html>
