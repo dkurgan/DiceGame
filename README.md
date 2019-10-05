@@ -7,4 +7,4 @@ Than showing who won.
 # Try here: 
 https://github.com/dkurgan/DiceGame.git
 
-Used:Html, Css, jQuery and vanilla Js. 
+Used: Html, Css, jQuery and vanilla Js. 
