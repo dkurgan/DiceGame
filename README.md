@@ -1,6 +1,8 @@
 # DiceGame
 Simple Dice game for 2 players. 
 
+#Play here: https://github.com/dkurgan/DiceGame.git
+
 Creating random number for each of Dice's and changing dice pic based on that number.
 Than showing who won.
 
