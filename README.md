@@ -8,4 +8,5 @@ Than showing who won.
 https://dkurgan.github.io/DiceGame/
 
 Page totally responsive for mobile screen. 
+
 Used: Html, Css, jQuery and vanilla Js. 
