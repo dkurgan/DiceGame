@@ -14,6 +14,10 @@ leftDice.addEventListener('click', function(){
   $('#leftDice').addClass("pressed");
   setTimeout(function(){ $('#leftDice').removeClass('pressed'); }, 200);
 });
+rightDice.addEventListener('click', function(){
+  $('#rightDice').addClass("pressed");
+  setTimeout(function(){ $('#rightDice').removeClass('pressed'); }, 200);
+});
 
 btn.addEventListener('click', function(){
   randomNum();

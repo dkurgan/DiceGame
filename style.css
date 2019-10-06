@@ -6,14 +6,11 @@ body{
   background-color: red;
   opacity: 0.5;
 }
-.general{
-  border-radius: 55px;
-}
 #btn {
     background-color: white;
   margin-top: 20px;
-  width: 100px;
-  height: 30px;
+  width: 300px;
+  height: 90px;
   color: black;
   border: 2px solid #008CBA;
 }
@@ -22,28 +19,56 @@ body{
   color: white;
 }
 .dice{
+  text-align: center;
   visibility: hidden;
   border-radius: 15px;
 }
 .dice#player1{
-  display: inline-block;
-  visibility: hidden;
+  display: inline;
+  margin-right: 15%;
   font-size: 20px;
-  margin-right: 105px;
 }
 .dice#player2{
-  margin-left: 105px;
-    display: inline-block;
-  visibility: hidden;
+    display: inline;
+    margin-left: 15%;
   font-size: 20px;
 }
 .dice#leftDice {
   margin-right: 35px;
-  width: 200px;
-  height: 200px;
+  max-width: 400px;
+  max-height: 400px;
 }
 .dice#rightDice {
   margin-left: 35px;
-  width: 200px;
-  height: 200px;
+  max-width: 400px;
+  max-height: 400px;
+}
+@media all and (orientation: portrait){
+  .general{
+    transform: rotate(90deg);
+    margin-top: 15%;
+    width: 100%;
+  }
+  #hide {
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  #head {
+    font-size: 90px;
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .dice{
+    align-content: center;
+    display: block;
+    margin: 30px;
+  }
+  .dice#player1{
+    display: none;
+  }
+  .dice#player2{
+    display: none;
+  }
 }
