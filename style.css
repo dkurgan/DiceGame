@@ -6,14 +6,11 @@ body{
   background-color: red;
   opacity: 0.5;
 }
-<<<<<<< HEAD
-=======
 .general{
   border-radius: 55px;
   width: 100%;
   height: 100%;
 }
->>>>>>> 3b2a833c7c913fc8c4477c24baf809fce9756c16
 #btn {
     background-color: white;
   margin-top: 20px;
